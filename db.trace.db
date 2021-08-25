@@ -1,0 +1,3 @@
+2021-08-25 22:57:10 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE *[*] FROM CATEGORY"; expected "identifier"; SQL statement:
+delete * from CATEGORY [42001-200]
