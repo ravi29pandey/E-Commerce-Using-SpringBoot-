@@ -1,6 +1,7 @@
 package com.sheryians.major.controller;
 
 
+import com.sheryians.major.global.GlobalData;
 import com.sheryians.major.model.Role;
 import com.sheryians.major.model.User;
 import com.sheryians.major.repository.RoleRepository;
@@ -31,6 +32,7 @@ public class LoginController {
 
     @GetMapping("/login")
     public String login(){
+        GlobalData.cart.clear();
         return "login";
     }
     @GetMapping("/register")
